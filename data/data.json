@@ -1,0 +1,275 @@
+{
+  "CrossIndustryInvoice": {
+    "ExchangedDocumentContext": {
+      "GuidelineSpecifiedDocumentContextParameter": {
+        "ID": "urn:cen.eu:en16931:2017"
+      }
+    },
+    "ExchangedDocument": {
+      "ID": "FA-2017-0010",
+      "TypeCode": "380",
+      "IssueDateTime": {
+        "DateTimeString": {
+          "@format": "102",
+          "#text": "20171113"
+        }
+      },
+      "IncludedNote": {
+        "Content": "Franco de port (commande > 300 \u20ac HT)"
+      }
+    },
+    "SupplyChainTradeTransaction": {
+      "IncludedSupplyChainTradeLineItem": [
+        {
+          "AssociatedDocumentLineDocument": {
+            "LineID": "1"
+          },
+          "SpecifiedTradeProduct": {
+            "GlobalID": {
+              "@schemeID": "0160",
+              "#text": "3518370400049"
+            },
+            "SellerAssignedID": "NOUG250",
+            "Name": "Nougat de l'Abbaye 250g"
+          },
+          "SpecifiedLineTradeAgreement": {
+            "GrossPriceProductTradePrice": {
+              "ChargeAmount": "4.55",
+              "AppliedTradeAllowanceCharge": {
+                "ChargeIndicator": {
+                  "Indicator": "false"
+                },
+                "ActualAmount": "0.45"
+              }
+            },
+            "NetPriceProductTradePrice": {
+              "ChargeAmount": "4.10"
+            }
+          },
+          "SpecifiedLineTradeDelivery": {
+            "BilledQuantity": {
+              "@unitCode": "C62",
+              "#text": "20.000"
+            }
+          },
+          "SpecifiedLineTradeSettlement": {
+            "ApplicableTradeTax": {
+              "TypeCode": "VAT",
+              "CategoryCode": "S",
+              "RateApplicablePercent": "20.00"
+            },
+            "SpecifiedTradeSettlementLineMonetarySummation": {
+              "LineTotalAmount": "81.90"
+            }
+          }
+        },
+        {
+          "AssociatedDocumentLineDocument": {
+            "LineID": "2"
+          },
+          "SpecifiedTradeProduct": {
+            "GlobalID": {
+              "@schemeID": "0160",
+              "#text": "3518370200090"
+            },
+            "SellerAssignedID": "BRAIS300",
+            "Name": "Biscuits aux raisins 300g"
+          },
+          "SpecifiedLineTradeAgreement": {
+            "GrossPriceProductTradePrice": {
+              "ChargeAmount": "3.20"
+            },
+            "NetPriceProductTradePrice": {
+              "ChargeAmount": "3.20"
+            }
+          },
+          "SpecifiedLineTradeDelivery": {
+            "BilledQuantity": {
+              "@unitCode": "C62",
+              "#text": "15.000"
+            }
+          },
+          "SpecifiedLineTradeSettlement": {
+            "ApplicableTradeTax": {
+              "TypeCode": "VAT",
+              "CategoryCode": "S",
+              "RateApplicablePercent": "5.50"
+            },
+            "SpecifiedTradeSettlementLineMonetarySummation": {
+              "LineTotalAmount": "48.00"
+            }
+          }
+        },
+        {
+          "AssociatedDocumentLineDocument": {
+            "LineID": "3"
+          },
+          "SpecifiedTradeProduct": {
+            "SellerAssignedID": "HOLANCL",
+            "Name": "Huile d'olive \u00e0 l'ancienne"
+          },
+          "SpecifiedLineTradeAgreement": {
+            "GrossPriceProductTradePrice": {
+              "ChargeAmount": "19.80"
+            },
+            "NetPriceProductTradePrice": {
+              "ChargeAmount": "19.80"
+            }
+          },
+          "SpecifiedLineTradeDelivery": {
+            "BilledQuantity": {
+              "@unitCode": "LTR",
+              "#text": "25.000"
+            }
+          },
+          "SpecifiedLineTradeSettlement": {
+            "ApplicableTradeTax": {
+              "TypeCode": "VAT",
+              "CategoryCode": "S",
+              "RateApplicablePercent": "5.50"
+            },
+            "SpecifiedTradeSettlementLineMonetarySummation": {
+              "LineTotalAmount": "495.00"
+            }
+          }
+        }
+      ],
+      "ApplicableHeaderTradeAgreement": {
+        "SellerTradeParty": {
+          "Name": "Au bon moulin",
+          "SpecifiedLegalOrganization": {
+            "ID": {
+              "@schemeID": "0002",
+              "#text": "99999999800010"
+            }
+          },
+          "DefinedTradeContact": {
+            "PersonName": "Tony Dubois",
+            "TelephoneUniversalCommunication": {
+              "CompleteNumber": "+33\u00a04\u00a072\u00a007\u00a008\u00a056"
+            },
+            "EmailURIUniversalCommunication": {
+              "URIID": {
+                "@schemeID": "SMTP",
+                "#text": "tony.dubois@aubonmoulin.fr"
+              }
+            }
+          },
+          "PostalTradeAddress": {
+            "PostcodeCode": "84340",
+            "LineOne": "1242 chemin de l'olive",
+            "CityName": "Malauc\u00e8ne",
+            "CountryID": "FR"
+          },
+          "SpecifiedTaxRegistration": {
+            "ID": {
+              "@schemeID": "VA",
+              "#text": "FR11999999998"
+            }
+          }
+        },
+        "BuyerTradeParty": {
+          "Name": "Ma jolie boutique",
+          "SpecifiedLegalOrganization": {
+            "ID": {
+              "@schemeID": "0002",
+              "#text": "78787878400035"
+            }
+          },
+          "DefinedTradeContact": {
+            "PersonName": "Alexandre Payet",
+            "TelephoneUniversalCommunication": {
+              "CompleteNumber": "+33\u00a04\u00a072\u00a007\u00a008\u00a067"
+            },
+            "EmailURIUniversalCommunication": {
+              "URIID": {
+                "@schemeID": "SMTP",
+                "#text": "alexandre.payet@majolieboutique.net"
+              }
+            }
+          },
+          "PostalTradeAddress": {
+            "PostcodeCode": "69001",
+            "LineOne": "35 rue de la R\u00e9publique",
+            "CityName": "Lyon",
+            "CountryID": "FR"
+          },
+          "SpecifiedTaxRegistration": {
+            "ID": {
+              "@schemeID": "VA",
+              "#text": "FR19787878784"
+            }
+          }
+        },
+        "BuyerOrderReferencedDocument": {
+          "IssuerAssignedID": "PO445"
+        },
+        "ContractReferencedDocument": {
+          "IssuerAssignedID": "MSPE2017"
+        }
+      },
+      "ApplicableHeaderTradeDelivery": {
+        "ShipToTradeParty": {
+          "PostalTradeAddress": {
+            "PostcodeCode": "69001",
+            "LineOne": "35 rue de la R\u00e9publique",
+            "CityName": "Lyon",
+            "CountryID": "FR"
+          }
+        }
+      },
+      "ApplicableHeaderTradeSettlement": {
+        "PaymentReference": "FA-2017-0010",
+        "InvoiceCurrencyCode": "EUR",
+        "SpecifiedTradeSettlementPaymentMeans": {
+          "TypeCode": "30",
+          "Information": "Virement sur compte Banque Fiducial",
+          "PayeePartyCreditorFinancialAccount": {
+            "IBANID": "FR2012421242124212421242124"
+          },
+          "PayeeSpecifiedCreditorFinancialInstitution": {
+            "BICID": "FIDCFR21XXX"
+          }
+        },
+        "ApplicableTradeTax": [
+          {
+            "CalculatedAmount": "16.38",
+            "TypeCode": "VAT",
+            "BasisAmount": "81.90",
+            "CategoryCode": "S",
+            "DueDateTypeCode": "5",
+            "RateApplicablePercent": "20.00"
+          },
+          {
+            "CalculatedAmount": "29.87",
+            "TypeCode": "VAT",
+            "BasisAmount": "543.00",
+            "CategoryCode": "S",
+            "DueDateTypeCode": "5",
+            "RateApplicablePercent": "5.50"
+          }
+        ],
+        "SpecifiedTradePaymentTerms": {
+          "Description": "30% d'acompte, solde \u00e0 30 j",
+          "DueDateDateTime": {
+            "DateTimeString": {
+              "@format": "102",
+              "#text": "20171213"
+            }
+          }
+        },
+        "SpecifiedTradeSettlementHeaderMonetarySummation": {
+          "LineTotalAmount": "624.90",
+          "TaxBasisTotalAmount": "624.90",
+          "TaxTotalAmount": {
+            "@currencyID": "EUR",
+            "#text": "46.25"
+          },
+          "GrandTotalAmount": "671.15",
+          "TotalPrepaidAmount": "201.00",
+          "DuePayableAmount": "470.15"
+        }
+      }
+    }
+  }
+}

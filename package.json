@@ -1,0 +1,16 @@
+{
+  "name": "factur-x_generation-with-jsonfile",
+  "version": "1.0.0",
+  "description": "",
+  "main": "factur-x_generation.js",
+  "scripts": {
+    "start": "node factur-x_generation.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "xml-js": "^1.6.11"
+  }
+}
